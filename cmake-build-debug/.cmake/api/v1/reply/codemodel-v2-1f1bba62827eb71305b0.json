@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Lab2_MergeSort_ElectricVehicles",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2_MergeSort_ElectricVehicles::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2_MergeSort_ElectricVehicles-Debug-8bee4b034ced8415d1e3.json",
+					"name" : "Lab2_MergeSort_ElectricVehicles",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/claudio/Desktop/School/CS/LMC/COMSC210_DataStructure/Lab_Assignments/Lab2_MergeSort_ElectricVehicles/cmake-build-debug",
+		"source" : "/Users/claudio/Desktop/School/CS/LMC/COMSC210_DataStructure/Lab_Assignments/Lab2_MergeSort_ElectricVehicles"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
