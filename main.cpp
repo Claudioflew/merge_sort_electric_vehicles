@@ -27,12 +27,12 @@ int main() {
 
     loadData(filePath, evByState);
 
-    cout << "\nEV Registration Counts by State BEFORE Sort:\n" << endl;
+    cout << "\nEV Registration Counts by State BEFORE Sort:" << endl;
     display(evByState);
 
     mergeSort(evByState, 0, evByState.size()-1);
 
-    cout << "\nEV Registration Counts by State AFTER Sort:\n" << endl;
+    cout << "\nEV Registration Counts by State AFTER Sort:" << endl;
     display(evByState);
 
 }
