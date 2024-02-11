@@ -56,7 +56,7 @@ void loadData(const string& filePath, vector<pair<string, int>>& evByState) {
     inputFile.close();
 }
 
-void merge(vector<pair<string, int>>& evByState, int i, int j , int k) {
+void merge(vector<pair<string, int>>& evByState, int i, int j, int k) {
     int left = i;
     int right = j + 1;
     vector<pair<string, int>> merged;
@@ -91,6 +91,7 @@ void mergeSort(vector<pair<string, int>>& evByState, int i, int k) {
         mergeSort(evByState, i, j);
         mergeSort(evByState, j + 1, k);
 
+        // This is like a branch point returning the aggregated points
         merge(evByState, i, j, k);
     }
 }
